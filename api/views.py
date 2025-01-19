@@ -7,8 +7,10 @@ from .stockfish import opponent
 import chess
 import chess.engine
 import chess.engine as configure
+from django.contrib.staticfiles.storage import staticfiles_storage
 
-stockfish_path = "./stockfish/stockfish-ubuntu-x86-64-avx2"
+stockfish_path = staticfiles_storage.path('stockfish/stockfish-ubuntu-x86-64-avx2')
+
 print(os.curdir)
 
 
