@@ -11,7 +11,6 @@ import chess.engine as configure
 stockfish_path = "./stockfish/stockfish-ubuntu-x86-64-avx2"
 print('this not bad')
 
-stockfish_path = "./stockfish/stockfish-windows-x86-64-avx2.exe"
 
 time_limit = chess.engine.Limit(time=0.1)
 
