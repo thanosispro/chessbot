@@ -8,7 +8,7 @@ import chess
 import chess.engine
 import chess.engine as configure
 
-stockfish_path = "./stockfish/stockfish-windows-x86-64-avx2.exe"
+stockfish_path = "./stockfish/stockfish-ubuntu-x86-64-avx2"
 
 time_limit = chess.engine.Limit(time=0.1)
 
