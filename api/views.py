@@ -7,14 +7,14 @@ from .stockfish import opponent
 import chess
 import chess.engine
 import chess.engine as configure
-print(os.curdir,'this is it')
+
 stockfish_path = "./stockfish/stockfish-windows-x86-64-avx2.exe"
 
 time_limit = chess.engine.Limit(time=0.1)
 
 engine = chess.engine.SimpleEngine.popen_uci(stockfish_path)
 
-
+print(os.curdir,'this is it')
 # Create your views here.
 
 @api_view(['POST'])
