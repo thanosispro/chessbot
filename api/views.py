@@ -9,7 +9,7 @@ import chess.engine
 import chess.engine as configure
 
 stockfish_path = "./stockfish/stockfish-ubuntu-x86-64-avx2"
-print('this not bad')
+print(os.curdir)
 
 
 time_limit = chess.engine.Limit(time=0.1)
