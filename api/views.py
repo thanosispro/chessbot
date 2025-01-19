@@ -9,11 +9,15 @@ import chess.engine
 import chess.engine as configure
 
 stockfish_path = "./stockfish/stockfish-ubuntu-x86-64-avx2"
+print('this not bad')
+
+stockfish_path = "./stockfish/stockfish-windows-x86-64-avx2.exe"
 
 time_limit = chess.engine.Limit(time=0.1)
 
 engine = chess.engine.SimpleEngine.popen_uci(stockfish_path)
 print(os.curdir,'this is it')
+
 
 # Create your views here.
 
